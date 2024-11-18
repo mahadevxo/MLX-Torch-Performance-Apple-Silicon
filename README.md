@@ -24,4 +24,5 @@ Clang 17.0.6 on darwin
 ## Results
 | device | processor | ram  | model     | batch_size | epochs | mlx (s) | torch (s) |
 |:-------|:----------|:----:|:---------:|:----------:|:------:|:-------:|:---------:|
-| MBA    | M1        | 8 GB | resnet-18 | 32         | 2      | 108.29  | -         |
+| MBA    | M1        | 8 GB | resnet-18 | 32         | 2      | 108.29  | 1176.04   |
+| MBP    | M1        |16 GB | resnet-18 | 32         | 2      |         |           |
