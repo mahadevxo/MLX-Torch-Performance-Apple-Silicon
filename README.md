@@ -23,5 +23,6 @@ Clang 17.0.6 on darwin
 
 ## Results
 
-device|model|batch_size|epochs|mlx|torch
-MacBook Air M1:4E 4P 7GPU 16NE 8Gb | resnet-18 | 32 | 2 | 108.29 | undefined
+| device                             | model     | batch_size | epochs | mlx    | torch     |
+|------------------------------------|-----------|------------|--------|--------|-----------|
+| MacBook Air M1:4E 4P 7GPU 16NE 8Gb | resnet-18 | 32         | 2      | 108.29 | undefined |
