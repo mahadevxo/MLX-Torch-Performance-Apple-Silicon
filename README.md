@@ -23,6 +23,6 @@ Clang 17.0.6 on darwin
 
 ## Results
 
-| Device       | Processor | Cores   | RAM    | GPU    | Neural Engine | Model     | batch_size | Epochs | mlx    | torch     |
-|--------------|-----------|---------|--------|--------|---------------|-----------|------------|--------|--------|-----------|
-| MacBook Air  | M1        | 4E + 4P | 8 GB   | 7 core |16 core        | resnet-18 | 32         | 2      | 108.29 | -         |
+| Device       | Processor | Cores   | RAM (GB) | GPU    | Neural Engine | Model     | batch_size | Epochs | mlx s   | torch  s   |
+|--------------|-----------|---------|----------|--------|---------------|-----------|------------|--------|---------|------------|
+| MacBook Air  | M1        | 4E + 4P | 8        | 7      |16             | resnet-18 | 32         | 2      | 108.29  | -          |
