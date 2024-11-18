@@ -1,2 +1,2 @@
-model     ,batch_size ,epochs ,time, mlx, torch
-resnet-18 ,        32 ,     2 ,
+device             ,model       ,batch_size ,epochs ,mlx    ,torch
+MBA-M1-8gb-4e-4p-7g-16 ,resnet-18 ,        32 ,     2 ,108.29 ,

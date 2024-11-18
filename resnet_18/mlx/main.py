@@ -104,6 +104,7 @@ def main(args):
     print(f"Start time: {start_time}")
     
     for epoch in range(args.epochs):
+        epoch_start = time.time()
         tr_loss, tr_acc, throughput = train_epoch(model, train_data, optimizer, epoch)
         print(
             " | ".join(
@@ -117,7 +118,8 @@ def main(args):
         )
 
         test_acc = test_epoch(model, test_data, epoch)
-        print(f"Epoch: {epoch} | Test acc {test_acc.item():.3f}")
+        epoch_end = time.time()
+        print(f"Epoch: {epoch} | Test acc {test_acc.item():.3f} | Time for Epoch {epoch_start-epoch_end:.2f} seconds")
 
         train_data.reset()
         test_data.reset()

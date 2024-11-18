@@ -20,3 +20,8 @@ Clang 17.0.6 on darwin
 - MLX: mlx 0.20.0
 - MLX-data: mlx-data 0.0.2
 - NumPy: numpy 2.0.2
+
+## Results
+
+device|model|batch_size|epochs|mlx|torch
+MacBook Air M1:4E 4P 7GPU 16NE 8Gb | resnet-18 | 32 | 2 | 108.29 | undefined
