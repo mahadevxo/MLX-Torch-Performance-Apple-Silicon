@@ -1,4 +1,4 @@
-# MLX-Torch-Performance-Apple-Silicon
+# MLX vs Torch Performance Comparison on Apple Silicon
 MLX vs PyTorch Performance on Apple Silicon
 
 ## Introduction
