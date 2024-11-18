@@ -13,8 +13,8 @@ parser = argparse.ArgumentParser(add_help=True)
 
 arch = "resnet18"
 
-parser.add_argument("--batch_size", type=int, default=256, help="batch size")
-parser.add_argument("--epochs", type=int, default=30, help="number of epochs")
+parser.add_argument("--batch_size", type=int, default=32, help="batch size")
+parser.add_argument("--epochs", type=int, default=2, help="number of epochs")
 parser.add_argument("--lr", type=float, default=1e-3, help="learning rate")
 parser.add_argument("--seed", type=int, default=0, help="random seed")
 parser.add_argument("--cpu", action="store_true", help="use cpu only")

@@ -1,2 +1,2 @@
-model     ,mlx    ,torch
-resnet-18 ,149.29 ,
+model     ,batch_size ,epochs ,time, mlx, torch
+resnet-18 ,        32 ,     2 ,
