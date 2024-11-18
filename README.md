@@ -4,6 +4,7 @@ MLX vs PyTorch Performance on Apple Silicon
 ## Introduction
 
 Comparing MLX and PyTorch on Apple Silicon
+
 MLX uses Metal Performance Shaders (MPS) and PyTorch uses Metal Performance Shaders (MPS) and Metal Performance Shaders Graph (MPSGraph) on Apple Silicon.
 
 PyTorch only uses CPU on Apple Silicon.
