@@ -22,7 +22,6 @@ Clang 17.0.6 on darwin
 - NumPy: numpy 2.0.2
 
 ## Results
-
-| Device       | Processor | Cores   | RAM (GB) | GPU    | Neural Engine | Model     | batch_size | Epochs | mlx s   | torch  s   |
-|:-------------|:----------|:-------:|:--------:|:------:|:-------------:|:---------:|:----------:|:------:|:-------:|:----------:|
-| MacBook Air  | M1        | 4E + 4P | 8        | 7      |16             | resnet-18 | 32         | 2      | 108.29  | -          |
+| device | processor | ram  | model     | batch_size | epochs | mlx (s) | torch (s) |
+|:-------|:----------|:----:|:---------:|:----------:|:------:|:-------:|:---------:|
+| MBA    | M1        | 8 GB | resnet-18 | 32         | 2      | 108.29  | -         |
