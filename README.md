@@ -26,11 +26,11 @@ Clang 17.0.6 on darwin
 |:-------|:----------|:----:|:---------:|:----------:|:------:|:-------:|:---------:|
 | MBA    | M1        | 8 GB | resnet-18 | 32         | 2      | 108.29  | 1176.04   |
 | MBP    | M1        |16 GB | resnet-18 | 32         | 2      |         |           |
-| MBA    | M2        | 8 GB | resnet-18 | 32         | 2      | 59.11   | 
+| MBA    | M2        | 8 GB | resnet-18 | 32         | 2      | 59.11   | 1036.72   |
 
 ## Results Inference
 | device | processor |ram   |  images  |   model      coreML    | torch  |
 |:-------|:----------|:----:|:--------:|:---------:|:----------:|:------:|
 | MBA    | M1        | 8 GB | 2023     | resnet-152| 8.15       | 119.5  |
-| MBB    | M1        |16 GB | 2023     | resnet-152| ----       | -----  |
-| MBA    | M2        | 8 GB | 2023     | resnet-152| ----       | -----  |
+| MBB    | M1        |16 GB | 2023     | resnet-152| NIL        | NIL    |
+| MBA    | M2        | 8 GB | 2023     | resnet-152| NIL        | NIL    |
