@@ -19,6 +19,7 @@ Clang 17.0.6 on darwin
 - Transformers: transformers 4.46.2
 - MLX: mlx 0.20.0
 - MLX-data: mlx-data 0.0.2
+- coremltools: 8.1
 - NumPy: numpy 2.0.2
 
 ## Results Training
