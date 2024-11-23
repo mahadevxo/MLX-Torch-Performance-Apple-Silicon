@@ -1,5 +1,6 @@
-# MLX vs Torch Performance Comparison on Apple Silicon
-MLX vs PyTorch Performance on Apple Silicon
+# MLX, Core ML and Torch Performance on Apple Silicon
+MLX vs PyTorch Performance on Apple Silicon for Training
+Core ML vs PyTorch Performance on Apple Silicon for Inference
 
 ## Introduction
 
@@ -9,8 +10,13 @@ MLX uses Metal Performance Shaders (MPS) and PyTorch uses Metal Performance Shad
 
 PyTorch only uses CPU on Apple Silicon.
 
+Comparing Core ML vs PyTorch on Apple Silicon
+
+Core ML models uses the Neural Engine as well as the GPU for computation.
+
 ## Environment
 Python 3.10.15 on conda-forge
+
 Clang 17.0.6 on darwin
 
 ### Libraries
