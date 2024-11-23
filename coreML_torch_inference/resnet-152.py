@@ -26,7 +26,7 @@ mlmodel.save("resnet152.mlpackage")
 
 mlmodel = coremltools.models.MLModel('resnet152.mlpackage')
 
-image_folder = 'cats_dogs/'
+image_folder = '/cats_dogs/'
 
 count = 0
 test_images = []
@@ -62,14 +62,6 @@ for image in test_images:
     input_batch = input_tensor.unsqueeze(0)
     
     resnet152_images.append(input_batch)
-    
-if torch.cuda.is_available():
-    device = torch.device('cuda')
-    print('Using GPU')
-else:
-    device = torch.device('cpu')
-    print('Using CPU')
-    
     
 start_time = time.time()
 for image in test_images:

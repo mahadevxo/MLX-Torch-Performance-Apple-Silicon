@@ -32,5 +32,5 @@ Clang 17.0.6 on darwin
 | device | processor |ram   |  images  |   model      coreML    | torch  |
 |:-------|:----------|:----:|:--------:|:---------:|:----------:|:------:|
 | MBA    | M1        | 8 GB | 2023     | resnet-152| 8.15       | 119.5  |
-| MBB    | M1        |16 GB | 2023     | resnet-152| NIL        | NIL    |
-| MBA    | M2        | 8 GB | 2023     | resnet-152| NIL        | NIL    |
+| MBB    | M1        |16 GB | 2023     | resnet-152| 4.88       | NIL    |
+| MBA    | M2        | 8 GB | 2023     | resnet-152| NIL        | NIL    | 
