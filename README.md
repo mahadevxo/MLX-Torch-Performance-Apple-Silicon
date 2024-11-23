@@ -21,8 +21,16 @@ Clang 17.0.6 on darwin
 - MLX-data: mlx-data 0.0.2
 - NumPy: numpy 2.0.2
 
-## Results
+## Results Training
 | device | processor | ram  | model     | batch_size | epochs | mlx (s) | torch (s) |
 |:-------|:----------|:----:|:---------:|:----------:|:------:|:-------:|:---------:|
 | MBA    | M1        | 8 GB | resnet-18 | 32         | 2      | 108.29  | 1176.04   |
 | MBP    | M1        |16 GB | resnet-18 | 32         | 2      |         |           |
+| MBA    | M2        | 8 GB | resnet-18 | 32         | 2      | 59.11   | 
+
+## Results Inference
+| device | processor |ram   |  images  |   model      coreML    | torch  |
+|:-------|:----------|:----:|:--------:|:---------:|:----------:|:------:|
+| MBA    | M1        | 8 GB | 2023     | resnet-152| 8.15       | 119.5  |
+| MBB    | M1        |16 GB | 2023     | resnet-152| ----       | -----  |
+| MBA    | M2        | 8 GB | 2023     | resnet-152| ----       | -----  |
